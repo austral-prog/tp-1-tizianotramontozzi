@@ -10,3 +10,11 @@ def circle():
     2. La circunferencia (2 × π × radio)
     """
     radio = 5
+
+    area = pi * radio**2
+    circunferencia = 2 * pi * radio
+
+    print(area)
+    print(circunferencia)
+
+circle()
